@@ -278,3 +278,29 @@ button:hover {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
+ 
+.larger-dev-img {
+  flex: 1 1 70%;
+}
+
+.larger-dev-img img.devs-photo {
+  max-width: 100%;
+  width: 100%;
+}
+.left {
+  flex: 1 1 30%; /* riduce un po’ la colonna sinistra */
+}
+.larger-dev-img {
+  flex: 1 1 100%;
+} 
+.day .larger-dev-img img.devs-photo {
+  width: 100%;
+  max-width: 250px; /* oppure 300px, regola come vuoi */
+  height: auto;
+}
+.day .larger-dev-img {
+  flex: 1 1 70%; /* anziché 60% */
+}
+.day .left {
+  flex: 1 1 30%; /* se vuoi bilanciare */
+}
