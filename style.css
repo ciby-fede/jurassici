@@ -244,3 +244,37 @@ button:hover {
   width: 60px;
 }
 
+.dev-box {
+  display: flex;
+  background-color: #3e332b;
+  border: 2px solid #c4a77d;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  color: #e5dbcf;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dev-text {
+  flex: 1 1 300px;
+  font-size: 1.1rem;
+  color: #e5dbcf;
+  line-height: 1.5;
+}
+
+.dev-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;  
+}
+
+.dev-image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
