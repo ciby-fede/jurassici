@@ -1,6 +1,3 @@
-function lettura(){
-
-}
 async function fetchAndDisplayCSV() {
       try {
         const response = await fetch('https://petoiupload-five.vercel.app/export-csv', {
